@@ -10,9 +10,6 @@ namespace PeriodosAtrasAcademiadoProgramador.ConsoleApp
             DateTime date_1 = ObterDataPeriodoAtras();
             DateTime date_2 = ObterDataAtual();
 
-            //DateTime date_1 = new DateTime(2022, 01, 2);
-            //DateTime date_2 = new DateTime(2021, 08, 11);
-
             TimeSpan Diff_dates = date_2.Subtract(date_1);
 
             Console.WriteLine();
